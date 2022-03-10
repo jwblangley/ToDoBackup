@@ -17,6 +17,7 @@ then
         ln -sf $(pwd)/records/$BACKUPNAME records/ToDo-previous.md
 
         git add records/$BACKUPNAME
+        git add assets
         git commit -m "Upload $BACKUPNAME"
         git push
         echo "To Do list backup complete"
