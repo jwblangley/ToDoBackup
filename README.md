@@ -15,4 +15,5 @@ Using cron with WSL is a bit annoying, so one possible workaround is to not use 
 
 ## Usage
 * Create a symlink from `records/ToDo.md` to an easily accessible location or vice versa (may be needed for WSL to play nicely with Windows applications).
+    * Also do this for the assets folder which can be used to store, for example, images used in your to do lists. N.B: you may need to use a bind mount rather than a symlink!
 * Edit your To do list as you please!
